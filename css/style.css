@@ -3,11 +3,11 @@
 }
 
 .container{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 [class*="col"]{
-    border: 2px dashed orange;
+    /* border: 2px dashed orange; */
 }
 
 
@@ -57,4 +57,19 @@
 /* Padding y */
 .padding-y-20{
     padding: 15px 0;
+}
+
+h1{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    gap: 25px;
+}
+
+ul li a{
+    color: currentColor;
+    text-decoration: none;
 }
