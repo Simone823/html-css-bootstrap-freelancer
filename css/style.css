@@ -2,6 +2,14 @@
     /* border: 1px solid red; */
 }
 
+.container{
+    border: 2px solid blue;
+}
+
+[class*="col"]{
+    border: 2px dashed orange;
+}
+
 
 /* Background Color */
 .bkg-blue-turquoise{
@@ -18,8 +26,8 @@
 
 
 /* Height */
-.height-50{
-    height: 50px;
+.height-60{
+    height: 60px;
 }
 
 .height-100{
@@ -44,4 +52,9 @@
 
 .height-800{
     height: 800px;
+}
+
+/* Padding y */
+.padding-y-20{
+    padding: 15px 0;
 }
