@@ -122,11 +122,38 @@ a{
 .card_img{
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
 }
 
 .card_img img{
     width: 100%;
     display: block;
+}
+
+.card_img:hover::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 128, 0, 0.5);
+}
+
+.card_img i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 45px;
+    cursor: pointer;
+    display: none;
+}
+
+.card_img:hover i{
+    display: block;
+    z-index: 1;
 }
 
 /* Sezione 3 About */
