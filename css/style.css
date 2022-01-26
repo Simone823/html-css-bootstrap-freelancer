@@ -7,7 +7,7 @@
 }
 
 [class*="col"]{
-    border: 2px dashed orange;
+    /* border: 2px dashed orange; */
 }
 
 
@@ -97,6 +97,16 @@ a{
 /* --------------------- */
 
 
+/* Sezione 1 start */
+.avatar{
+    width: 160px;
+}
+
+.avatar img{
+    width: 160px;
+    display: block;
+}
+
 /* Sezione 2 portfolio */
 .card_img{
     border-radius: 10px;
@@ -113,7 +123,7 @@ a{
 .icon_star::after{
     content: '';
     display: block;
-    width: 60px;
+    width: 80px;
     height: 4px;
     background-color: currentColor;
     border-radius: 10px;
