@@ -103,8 +103,19 @@ a{
     content: '';
     display: block;
     width: 60px;
-    height: 2px;
-    background-color: white;
+    height: 4px;
+    background-color: currentColor;
+    border-radius: 10px;
+}
+
+
+/* Sezione 4 contact me */
+.form-control{
+    border: none;
+    border-bottom: 1px solid #aaa;
+    border-radius: 0;
+    padding-left: 0;
+    color: black;
 }
 
 
