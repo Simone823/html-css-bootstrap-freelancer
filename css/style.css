@@ -7,7 +7,7 @@
 }
 
 [class*="col"]{
-    /* border: 2px dashed orange; */
+    border: 2px dashed orange;
 }
 
 
@@ -96,6 +96,17 @@ a{
 }
 /* --------------------- */
 
+
+/* Sezione 2 portfolio */
+.card_img{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card_img img{
+    width: 100%;
+    display: block;
+}
 
 /* Sezione 3 About */
 .icon_star::before,
