@@ -1,14 +1,14 @@
-.container-fluid{
-    /* border: 1px solid red; */
+/* .container-fluid{
+    border: 1px solid red;
 }
 
 .container{
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
 }
 
 [class*="col"]{
-    /* border: 2px dashed orange; */
-}
+    border: 2px dashed orange;
+} */
 
 
 /* Color */
@@ -58,6 +58,17 @@
 
 .height-800{
     height: 800px;
+}
+
+
+/* Gap */
+.gap-15{
+    gap: 15px;
+}
+
+/* max width */
+.max-w820{
+    max-width: 820px;
 }
 
 
@@ -161,19 +172,4 @@ a{
 
 p{
     margin-bottom: 0;
-}
-
-/* Gap */
-.gap-15{
-    gap: 15px;
-}
-
-/* column count */
-.col-count-2{
-    column-count: 2;
-}
-
-/* max width */
-.max-w980{
-    max-width: 980px;
 }
