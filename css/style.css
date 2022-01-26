@@ -74,6 +74,10 @@
     padding: 50px 0;
 }
 
+.padding-y-80{
+    padding: 80px 0;
+}
+
 
 
 h1{
@@ -93,9 +97,18 @@ a{
 /* --------------------- */
 
 
+/* Sezione 3 About */
+.icon_star::before,
+.icon_star::after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: white;
+}
+
 
 /* Footer */
-
 /* Sezione 1 */
 .icon_social{
     margin: 0;
@@ -116,4 +129,19 @@ a{
 
 p{
     margin-bottom: 0;
+}
+
+/* Gap */
+.gap-15{
+    gap: 15px;
+}
+
+/* column count */
+.col-count-2{
+    column-count: 2;
+}
+
+/* max width */
+.max-w980{
+    max-width: 980px;
 }
